@@ -248,7 +248,7 @@ h1, h2 {
 
 .hero h2, 
 .hero p {
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Sombra más visible */
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9); /* Sombra más visible */
 }
 
 .cta-button {
@@ -260,7 +260,7 @@ h1, h2 {
     text-decoration: none;
     font-size: 1em;
     border-radius: 5px;
-    text-shadow: 3px 3px 6px black; /* Sin sombra en el botón */
+    text-shadow: none; /* Sin sombra en el botón */
 }
 
 .cta-button:hover {
