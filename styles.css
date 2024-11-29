@@ -248,7 +248,7 @@ h1, h2 {
 
 .hero h2, 
 .hero p {
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9); /* Sombra muy extendida y difusa */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); /* Sombra muy extendida y difusa */
 }
 
 /* El botón no tendrá sombra */
