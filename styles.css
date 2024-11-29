@@ -97,7 +97,7 @@ footer {
 }
 /* Ajustar tamaño del logo */
 .logo {
-  width: 80px; /* Ajusta según lo que se vea bien */
+  width: 60px; /* Ajusta según lo que se vea bien */
   height: auto;
   margin: 10px 0; /* Opcional: agrega espacio alrededor del logo */
 }
