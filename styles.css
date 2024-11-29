@@ -248,7 +248,7 @@ h1, h2 {
 
 .hero h2, 
 .hero p {
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8); /* Sombra más visible */
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Sombra más visible */
 }
 
 .cta-button {
