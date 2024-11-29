@@ -239,7 +239,7 @@ h1, h2 {
     background-size: cover; /* La imagen cubrirá todo el contenedor */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
-    color: white; /* Texto blanco */
+    color: #f0f0f0; /* Gris claro */
     padding: 50px 20px; /* Espaciado interno */
     text-align: center; /* Centra el texto horizontalmente */
     font-family: Arial, sans-serif; /* Fuente del texto */
