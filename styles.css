@@ -239,21 +239,16 @@ h1, h2 {
     background-size: cover; /* La imagen cubrirá todo el contenedor */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
-    color: white; /* Texto blanco para visibilidad */
-    padding: 50px 20px; /* Espaciado interno alrededor del texto */
+    color: white; /* Texto blanco */
+    padding: 50px 20px; /* Espaciado interno */
     text-align: center; /* Centra el texto horizontalmente */
     font-family: Arial, sans-serif; /* Fuente del texto */
     min-height: 400px; /* Altura mínima para que la imagen sea visible */
 }
 
-.hero h2 {
-    margin: 20px 0;
-    font-size: 2em;
-}
-
+.hero h2, 
 .hero p {
-    margin: 10px 0;
-    font-size: 1.2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra suave en el texto */
 }
 
 .cta-button {
@@ -265,6 +260,7 @@ h1, h2 {
     text-decoration: none;
     font-size: 1em;
     border-radius: 5px;
+    text-shadow: none; /* Sin sombra en el botón */
 }
 
 .cta-button:hover {
