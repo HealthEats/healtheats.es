@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.menu-item img {
+  width: 100%; /* Ajusta la imagen al ancho del contenedor */
+  height: auto; /* Mantiene la proporción original */
+  border-radius: 5px; /* Redondea ligeramente las esquinas (opcional) */
+  object-fit: cover; /* Asegura que la imagen se recorte correctamente dentro del marco */
+  max-height: 200px; /* Establece una altura máxima para uniformar las imágenes */
+}
+
+header {
+  background: #27ae60;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #ecf0f1;
+}
+
+.hero .cta-button {
+  background: #27ae60;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 30%;
+  background: #f9f9f9;
+}
+
+form input, form textarea {
+  width: 80%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+form button {
+  background: #27ae60;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+/* Ajustar tamaño del logo */
+.logo {
+  width: 80px; /* Ajusta según lo que se vea bien */
+  height: auto;
+  margin: 10px 0; /* Opcional: agrega espacio alrededor del logo */
+}
+/* Ajustar margen o centrado del título */
+main h1 {
+  text-align: center; /* Para centrarlo horizontalmente */
+  margin-left: 20px; /* Alternativa: para separar del borde izquierdo */
+  margin-top: 20px; /* Opcional: espacio arriba */
+}
+/* General layout adjustments */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Navigation styles */
+header {
+  background: #3c6e71;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  background: #284b63;
+}
+
+/* Specific for the form in contact.html */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background: #3c6e71;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background: #284b63;
+}
+
+/* Center aligned sections (e.g., FAQ text alignment) */
+h1, h2 {
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu-item {
+  flex: 1 1 calc(33% - 40px); /* Adjust cards in rows of three */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 2px solid #ddd;
+}
+
+.menu-item h2 {
+  margin: 10px 0;
+}
+
+.menu-item p {
+  margin: 5px 0;
+}

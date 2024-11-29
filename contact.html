@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - HealthEats</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="HealthEats Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="menu.html">Menús</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <h1>Contacto</h1>
+        <ul>
+            <p>Queremos saber de ti. Si tienes preguntas, sugerencias o comentarios, no dudes en ponerte en contacto con nosotros.</p>
+        </ul>  
+        </section>   
+             
+        <section>
+            <h2>Detalles de Contacto</h2>
+            <ul>
+                <p><strong>Teléfono:</strong> +34 601 10 93 58</p>
+                <p><strong>Email:</strong> info@healtheats.com</p>
+                <p><strong>Dirección:</strong> Cl. Guadalbullon, 1, 41013 Sevilla</p>
+            </ul>
+        </section>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form action="submit_contact.html" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HealthEats. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
